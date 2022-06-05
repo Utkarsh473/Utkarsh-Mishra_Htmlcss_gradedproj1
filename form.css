@@ -1,0 +1,89 @@
+body {
+    overflow: hidden;
+    size: 80%;
+    margin: 3% 2%;
+    border: 2px solid black;
+}
+
+#form-container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 7%;
+    height: 30vw;
+    overflow-y: scroll;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+form {
+    float: left;
+    width: 50%;
+    outline: 1px solid red;
+
+}
+
+#image {
+    float: right;
+    width: 50%;
+    position: relative;
+
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+form>h1 {
+    font-size: 20px;
+}
+
+form>input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 2%;
+    margin: 2% 3%;
+}
+
+#dis {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0% 3%;
+}
+
+#distt {
+    padding: 1%;
+    margin: 3% 1%;
+    background-color: buttonface;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+label {
+    font-size: 1vw;
+}
+
+#date,
+#time {
+    display: inline-block;
+    margin: 3% 3%;
+}
+
+.label-style {
+    margin: 2% 3%;
+}
+
+.buttons>input {
+    background-color: rgb(168, 110, 250);
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding: 2%;
+    margin: 0% 5%;
+}

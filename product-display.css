@@ -1,0 +1,65 @@
+.image {
+    width: 90%;
+    margin-bottom: 5%;
+    margin: auto;
+    background-color: white;
+}
+
+.image>img {
+    object-fit: contain;
+    width: 100%;
+    max-height: 10vw;
+}
+
+.image :hover {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.prod-info {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 2% auto;
+    width: 90%;
+}
+
+
+.flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.flex-item {
+    width: 20%;
+    background-color: rgba(128, 128, 128, 0.151);
+    border-radius: 10px;
+}
+
+.offer-and-price {
+    color: blue;
+    margin: 2% auto;
+    width: 90%;
+}
+
+button {
+    color: darkgoldenrod;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid blue;
+}
+
+h1 {
+    padding-left: 2%;
+}
+
+#biscuit {
+    height: 10vw;
+}

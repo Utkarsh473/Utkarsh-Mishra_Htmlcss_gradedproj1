@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Patient Form</title>
+</head>
+
+<body>
+    <div id="form-container">
+        <form>
+            <h1>1. Your Contact Details</h1>
+            <input type="text" id="fName" name="full-name" placeholder="Full Name">
+            <input type="text" id="pid" name="pateint-id" placeholder="Patient Id if exists">
+            <input type="number" id="contact" name="contact-number" placeholder="Contact Number">
+            <input type="number" id="email" name="email-id" placeholder="Email id">
+
+            <h1>2. Address</h1>
+            <input type="text" id="hNo" name="house-no" placeholder="H-No">
+            <input type="text" id="street" name="Street" placeholder="Street">
+            <input type="text" id="area" name="Area" placeholder="Area"><br>
+            <br>
+            <label for="distt" id="dis">District</label><br>
+            <select name="district" id="distt">
+                <option value="choose">Choose</option>
+                <option value="bangalore-urban">Bangalore Urban</option>
+                <option value="bangalore-rural">Bangalore Rural</option>
+                <option value="udupi">Udupi</option>
+                <option value="hoskote">Hoskote</option>
+                <option value="mysore">Mysore</option>
+            </select>
+
+            <h1>3. Choose the Test Type.</h1>
+
+            <input type="checkbox" id="cbc">
+            <label for="cbc">CBC</label><br>
+
+            <input type="checkbox" id="complete-urine">
+            <label for="complete-urine">Complete Urine</label><br>
+
+            <input type="checkbox" id="lipid-profile">
+            <label for="lipid-profile">Lipid Profile</label><br>
+
+            <input type="checkbox" id="tsh">
+            <label for="tsh">Thyroid Stimulating Hormone(TSH)</label><br>
+
+            <input type="checkbox" id="glucose">
+            <label for="glucose">Glucose Test</label><br>
+
+            <h1>4. Do you want a hard copy of the report also</h1>
+
+            <input type="radio" id="yes">
+            <label id="yes">Yes</label><br>
+
+            <input type="radio" id="no">
+            <label id="no">No</label><br>
+
+            <h1>5. Select Your Comfortable Date and Time</h1>
+
+            <label for="date" class="label-style">Date</label>
+            <input type="date" id="date">
+
+            <label for="time" class="label-style">Time</label>
+            <input type="time" id="time"><br>
+
+            <div class="buttons">
+                <input type="submit" value="Submit"></input>
+                <input type="reset" value="Reset"></input>
+            </div>
+
+        </form>
+        <section id="image">
+            <img src="./Images/Lab-Test/lab-test.jpg">
+        </section>
+    </div>
+
+</body>
+
+</html>

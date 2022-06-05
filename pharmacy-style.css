@@ -1,0 +1,115 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    background-color: #4f4f4f;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    padding: 1%;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.966);
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    padding: 1%;
+}
+
+.navigator {
+    background-color: #7E7E7E;
+    position: sticky;
+    top: 0;
+}
+
+.navigator>div {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1% 1.5%;
+}
+
+.navigator>div>a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.submenu {
+    background-color: #F5F5F5;
+    display: none;
+    width: 100%;
+}
+
+.submenu>a {
+    display: block;
+    text-decoration: none;
+    color: #5799ce;
+    padding: 5% 2%;
+}
+
+.navigator>div:hover {
+    background-color: #272727;
+}
+
+#medicines {
+    position: relative;
+}
+
+
+#medicines:hover .submenu {
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+
+#healthcare {
+    position: relative;
+}
+
+
+#healthcare:hover .submenu {
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+
+#imageSlider {
+    border: 2px solid steelblue;
+    animation: changeImage 4s 4s infinite normal forwards;
+    width: 99.5%;
+    margin: auto;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;
+}
+
+
+
+@keyframes changeImage {
+    0% {
+        background-image: url("./Images/Animation/ani1.jpg");
+    }
+
+    25% {
+        background-image: url("./Images/Animation/ani2.png");
+    }
+
+    50% {
+        background-image: url("./Images/Animation/ani3.jpg");
+    }
+
+    75% {
+        background-image: url("./Images/Animation/ani4.jpg");
+    }
+
+    100% {
+        background-image: url("./Images/Animation/ani5.jpg");
+    }
+
+}
